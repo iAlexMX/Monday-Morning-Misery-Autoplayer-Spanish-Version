@@ -26,7 +26,7 @@ local uwuware, connected = loadstring(game:HttpGet'https://raw.githubusercontent
             end
         end
     }
-    Credits:AddLabel{text = "Actualizado: 03/09/2022"}
+    Credits:AddLabel{text = "Actualizado: 05/09/2022"}
     Credits:AddLabel{text = "iAlexMX: Autoplayer"}
     Credits:AddLabel{text = "iAlexMX: UI setup"}
     uwuware:Init()  
