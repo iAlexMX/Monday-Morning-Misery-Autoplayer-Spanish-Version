@@ -15,7 +15,7 @@ local uwuware, connected = loadstring(game:HttpGet'https://raw.githubusercontent
         end
     }
     local Credits = Window:AddFolder'Creditos'
-    Credits:AddButton{text = 'Disfruta del Juego',
+    Credits:AddButton{text = 'Disfruta del juego',
         callback = function()
             if setclipboard then 
                 print""
