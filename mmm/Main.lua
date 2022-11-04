@@ -2,7 +2,7 @@ local uwuware, connected = loadstring(game:HttpGet'https://raw.githubusercontent
     local Window = uwuware:CreateWindow'MMM AP | iAlexMX'
     local Main = Window:AddFolder'Opciones'
     Main:AddToggle{text = 'Alternar AP',flag = 'yes',state = true}
-    Main:AddBind{text = 'Esconder GUI',key = Enum.KeyCode.Insert,
+    Main:AddBind{text = 'Esconder GUI',key = Enum.KeyCode.F11,
         callback = function()uwuware:Close()end
     }
     Main:AddButton{text = 'Quitar script',
